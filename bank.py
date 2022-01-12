@@ -61,6 +61,9 @@ elif used == '2':
         : donate: P1061248421 :          """)
     print("""Bye!""")
     exit()
+
+ports = input("Порт: ")
+reloc = input("Редирект: ")
 else:
     os.system('clear')
     print(""" __        __   __   ___  __   __  
@@ -72,8 +75,6 @@ else:
         : donate: P1061248421 :          """)
     print("Bye !:/")
     exit()
-ports = input("Порт: ")
-reloc = input("Редирект: ")
 if reloc != "":
     if used == "1":
         f = open("dist/location.location", 'w')
