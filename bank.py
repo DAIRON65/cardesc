@@ -64,17 +64,6 @@ elif used == '2':
 
 ports = input("Порт: ")
 reloc = input("Редирект: ")
-else:
-    os.system('clear')
-    print(""" __        __   __   ___  __   __  
-/  `  /\  |__) |  \ |__  /__` /  ` 
-\__, /~~\ |  \ |__/ |___ .__/ \__, 
-                                   
-            :card_form_pay:         
-           ::t.me/escdroid::
-        : donate: P1061248421 :          """)
-    print("Bye !:/")
-    exit()
 if reloc != "":
     if used == "1":
         f = open("dist/location.location", 'w')
